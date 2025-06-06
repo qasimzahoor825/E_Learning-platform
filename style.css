@@ -1,0 +1,521 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 10;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+h1 {
+  color: #323639;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Navigation bar styles */
+nav {
+  background-color: #0fb6e0f7; /* Professional blue tone */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; /* Consistent padding */
+  box-shadow: 0 4px 6px rgba(4, 42, 233, 0.779); /* Subtle shadow for depth */
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff; /* White text for contrast */
+  margin: 0 15px;
+  font-size: 16px; /* Slightly larger for readability */
+  font-weight: bold;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  padding: 8px 12px;
+  border-radius: 4px; /* Rounded corners for modern look */
+}
+
+nav a:hover {
+  background-color: #1c15b1; /* Highlight on hover */
+  color: #ffffff; /* Maintain white text */
+}
+
+/* Logo section */
+nav .logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff; /* Keep the logo text white */
+  text-transform: uppercase; /* Professional all-caps */
+  margin-right: auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav a {
+    margin: 10px 0; /* Adjust spacing for smaller screens */
+  }
+}
+
+
+/* Form styles */
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(154, 46, 46, 0.389);
+}
+
+form input,
+form select,
+form button {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+form button {
+  background: #007BFF;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background: #0056b3;
+}
+
+/* Dashboard styles */
+.dashboard {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(35, 12, 238, 0.356);
+}
+
+.dashboard nav {
+  margin: 10px 0;
+}
+
+.dashboard nav a {
+  display: inline-block;
+  padding: 10px 15px;
+  margin: 5px;
+  background: #007BFF;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.dashboard nav a:hover {
+  background: #0056b3;
+}
+
+/* Utility styles */
+.text-center {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  
+}
+
+.dashboard-container {
+  width: 80%;
+  margin: 20px auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Header Styling */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+header h1 {
+  font-size: 24px;
+  color: hsla(210, 100%, 80%, 1); /* Light blue in HSLA */
+}
+
+
+/* Navigation Bar */
+.dashboard-nav {
+  display: flex;
+  gap: 15px;
+}
+
+.dashboard-nav a {
+  text-decoration: none;
+  color: #0056b3;
+  font-size: 16px;
+  padding: 8px 12px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dashboard-nav a:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+/* Logout Button */
+.logout-btn {
+  color: #fff;
+  background-color: #e63946;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.logout-btn:hover {
+  background-color: #c71f34;
+}
+
+
+/* Form styles */
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.9); /* Slight transparency for readability */
+  background-image: url("F:/db/htdocs/e_learning/images/bg.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 0 2px 4px rgba(154, 46, 46, 0.389);
+}
+
+form input,
+form select,
+form button {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+form button {
+  background: #007BFF;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background: #0056b3;
+}
+
+/* Ensure form text is readable over the background */
+form label,
+form input,
+form textarea,
+form button {
+  color: #333; /* Use a contrasting color for readability */
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+
+/* Error and Success Messages */
+.error-message {
+  color: #e63946;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.success-message {
+  color: #2a9d8f;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+form {
+  width: 60%;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input[type="text"],
+select,
+textarea,
+input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+
+.success {
+  color: green;
+  text-align: center;
+}
+
+
+/* General styles for grade_submission and grade_submission_details */
+.grade-submission-page {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.grade-submission-page h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.grade-submission-page h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Styling the course list */
+.grade-submission-page ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.grade-submission-page ul li {
+  margin-bottom: 10px;
+}
+
+.grade-submission-page ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #0066cc;
+}
+
+.grade-submission-page ul li a:hover {
+  color: #003366;
+}
+
+/* Styling for the table displaying submissions */
+.grade-submission-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.grade-submission-table th, .grade-submission-table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.grade-submission-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.grade-submission-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.grade-submission-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.grade-submission-table td input,
+.grade-submission-table td textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.grade-submission-table td input[type="text"] {
+  width: 150px;
+}
+
+.grade-submission-page button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.grade-submission-page button:hover {
+  background-color: #45a049;
+}
+
+/* Back button styling */
+.grade-submission-page a {
+  font-size: 16px;
+  color: #0066cc;
+  text-decoration: none;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.grade-submission-page a:hover {
+  color: #003366;
+}
+
+/* Form input styling */
+input[type="text"], textarea {
+  margin: 5px 0;
+}
+
+input[type="text"]:focus, textarea:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+
+
+ /* View Courses Page Specific Styles */
+ .view-courses-container {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.course-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.course-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  background: #f9f9f9;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.course-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.course-item h3 {
+  font-size: 20px;
+  color: #333;
+}
+
+.course-item p {
+  font-size: 14px;
+  color: #555;
+  margin: 10px 0;
+}
+
+.course-item .btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: background 0.3s;
+}
+
+.course-item .btn:hover {
+  background: #0056b3;
+}
+
+.no-courses {
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+  margin: 20px 0;
+} 
